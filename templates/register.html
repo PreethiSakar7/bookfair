@@ -1,0 +1,115 @@
+ <!-- validity JS -->
+  <link href="libs/jquery-validation/validate.css" rel="stylesheet">
+<script src="libs/jquery-validation/jquery.validate.min.js"></script>
+       
+
+<section>
+    
+    <!-- staring of banner -->
+    <div class="jumbotron" style="    text-align: left;
+    background-image: url('img/spl_offer.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 390px;
+    background-size: 440px 380px;
+    background-color: rgba(211, 228, 118, 0.72);
+    color: #fff;">
+        <p class="hidden-xs hidden-sm" style="font-size: 50px;
+    font-style: italic;">Exclusive Discount</p>
+        <span class="hidden-xs hidden-sm" style="color:#fff;font-size:75px; font-family: 'Lobster', cursive;">Register</span>
+        <span class="hidden-xs hidden-sm" style="color:#2CB5E8;font-size:75px; font-family: 'Lobster', cursive;"> NOW!!!</span>
+        <span class="visible-sm" style="font-size: 50px;
+    font-style: italic;">Exclusive <br/> Discount</span>
+</div>
+    <!-- register form -->
+     <div class="panel">
+         <div class="panel-heading" style="    background: -webkit-linear-gradient(top, rgba(31, 200, 219, 0), rgba(31, 200, 219, 1));
+    background: -o-linear-gradient(top, rgba(31, 200, 219, 0), rgba(31, 200, 219, 1));
+    background: -moz-linear-gradient(top,rgba(31, 200, 219, 0), rgba(31, 200, 219, 1));
+    background: linear-gradient(to top, rgba(31, 200, 219, 0), rgba(31, 200, 219, 1));
+    color: #fff;
+    font-size: 30px;border: 0px solid #ffffff;
+    font-family: 'Lobster', cursive;"><span>Register Now!!</span></div>
+        <div class="panel-body">
+            <form id="form1" class=" js-validation-register col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-4 col-md-4 col-md-offset-4">
+                <div class="form-material">
+                <div class="form-group">
+                  <label class="control-label" for="fullname">Full Name</label>
+                  <input class="form-control" id="fullname" name="fullname" type="text">
+                </div>                
+                </div>
+                <div class="form-material">
+                <div class="form-group">
+                  <label class="control-label" for="email">Email ID</label>
+                  <input class="form-control" id="email" name="email" type="email">
+                </div>                
+                </div>
+
+                <div class="form-material">
+                <div class="form-group">
+                  <label class="control-label" for="phone">Phone no</label>
+                  <input class="form-control" id="phone" name="phone" type="text">
+                </div>                
+                </div>
+                <div class="form-group">
+                  <label class=" control-label">Gender</label>
+                  <div class="">
+                    <div class="radio radio-primary">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                          
+                        Female
+                      </label>
+                    </div>
+                    <div class="radio radio-primary">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Male
+                      </label>
+                    </div>
+                      <div class="radio radio-primary">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadio3" value="option3">
+                          Third-Gender
+                      </label>
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="form-group">
+                  <label class="control-label" for="textArea">Address</label>
+                    <textarea class="form-control" rows="3" id="textArea"></textarea>
+                </div>
+                <div class="form-material">
+                <div class="form-group">
+                  <label class="control-label" for="city">City</label>
+                  <input class="form-control" id="city" name="city" type="text">
+                </div>                
+                </div>
+
+                <div class="form-material">
+                <div class="form-group">
+                  <label class="control-label" for="state">State</label>
+                  <input class="form-control" id="state" name="state"  type="text">
+                </div>
+                </div>
+               
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Accept all terms and condition
+                  </label>
+                </div>
+            </form>
+            <div  ng-controller="register" class="col-xs-12 col-sm-offset-2 col-sm-8 col-sm-offset-2 col-md-offset-4 col-md-4 col-md-offset-4">
+                <a ng-click="registerForm()" class="btn btn-default btn-lg btn-block btn-raised">SUBMIT</a> 
+            </div>
+         </div>
+    </div>
+</section>
+
+<!-- Material Design for Bootstrap -->
+        <script>
+          $.material.init();
+        </script>
+
+ <script src="js/register_validation.js"></script>

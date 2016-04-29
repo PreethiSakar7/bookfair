@@ -1,0 +1,346 @@
+.text-right {
+    text-align: right;
+}
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: #3c763d;
+}
+.has-success .form-control {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+.has-success .input-group-addon {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+.has-success .form-control-feedback {
+    color: #3c763d;
+}
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+    color: #8a6d3b;
+}
+.has-warning .form-control {
+    border-color: #8a6d3b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+.has-warning .input-group-addon {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #8a6d3b;
+}
+.has-warning .form-control-feedback {
+    color: #8a6d3b;
+}
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #a94442;
+}
+.has-error .form-control {
+   /* border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);*/
+}
+.has-error .form-control:focus {
+   /* border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;*/
+}
+.has-error .input-group-addon {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442;
+}
+.has-error .form-control-feedback {
+    color: #a94442;
+}
+.has-feedback label ~ .form-control-feedback {
+    top: 25px;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+    top: 0;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+.help-block {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 13px;
+    color: #ff5722;
+}
+.has-success > label,
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: #46c37b;
+}
+.has-success .form-control {
+    border-color: #46c37b;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-success .form-control:focus {
+    border-color: #34a263;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-success .input-group-addon {
+    color: #46c37b;
+    border-color: #46c37b;
+    background-color: #ffffff;
+}
+.has-success .form-control-feedback {
+    color: #46c37b;
+}
+.has-info > label,
+.has-info .help-block,
+.has-info .control-label,
+.has-info .radio,
+.has-info .checkbox,
+.has-info .radio-inline,
+.has-info .checkbox-inline,
+.has-info.radio label,
+.has-info.checkbox label,
+.has-info.radio-inline label,
+.has-info.checkbox-inline label {
+    color: #70b9eb;
+}
+.has-info .form-control {
+    border-color: #70b9eb;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-info .form-control:focus {
+    border-color: #43a3e5;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-info .input-group-addon {
+    color: #70b9eb;
+    border-color: #70b9eb;
+    background-color: #ffffff;
+}
+.has-info .form-control-feedback {
+    color: #70b9eb;
+}
+.has-warning > label,
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+    color: #f3b760;
+}
+.has-warning .form-control {
+    border-color: #f3b760;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-warning .form-control:focus {
+    border-color: #efa231;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.has-warning .input-group-addon {
+    color: #f3b760;
+    border-color: #f3b760;
+    background-color: #ffffff;
+}
+.has-warning .form-control-feedback {
+    color: #f3b760;
+}
+.has-error > label,
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #d26a5c;
+}
+.has-error .form-control {
+    /*border-color: #d26a5c;
+    -webkit-box-shadow: none;
+    box-shadow: none;*/
+}
+.has-error .form-control:focus {
+   /* border-color: #c54736;
+    -webkit-box-shadow: none;
+    box-shadow: none;*/
+}
+.has-error .input-group-addon {
+    color: #d26a5c;
+    border-color: #d26a5c;
+    background-color: #ffffff;
+}
+.has-error .form-control-feedback {
+    color: #d26a5c;
+}
+
+.has-success .form-material > .form-control {
+    -webkit-box-shadow: 0 1px 0 #46c37b;
+    box-shadow: 0 1px 0 #46c37b;
+}
+.has-success .form-material > .form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b;
+}
+.has-success .form-material > .form-control:focus + label {
+    color: #46c37b;
+}
+.has-success .form-material > .form-control:focus ~ .input-group-addon {
+    color: #46c37b;
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b;
+}
+.has-success .form-material > .form-control + label {
+    color: #46c37b;
+}
+.has-success .form-material > .form-control ~ .input-group-addon {
+    color: #46c37b;
+    -webkit-box-shadow: 0 1px 0 #46c37b;
+    box-shadow: 0 1px 0 #46c37b;
+}
+.has-success .form-material > .help-block {
+    color: #46c37b;
+}
+.has-info .form-material > .form-control {
+    -webkit-box-shadow: 0 1px 0 #70b9eb;
+    box-shadow: 0 1px 0 #70b9eb;
+}
+.has-info .form-material > .form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb;
+}
+.has-info .form-material > .form-control:focus + label {
+    color: #70b9eb;
+}
+.has-info .form-material > .form-control:focus ~ .input-group-addon {
+    color: #70b9eb;
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb;
+}
+.has-info .form-material > .form-control + label {
+    color: #70b9eb;
+}
+.has-info .form-material > .form-control ~ .input-group-addon {
+    color: #70b9eb;
+    -webkit-box-shadow: 0 1px 0 #70b9eb;
+    box-shadow: 0 1px 0 #70b9eb;
+}
+.has-info .form-material > .help-block {
+    color: #70b9eb;
+}
+.has-warning .form-material > .form-control {
+    -webkit-box-shadow: 0 1px 0 #f3b760;
+    box-shadow: 0 1px 0 #f3b760;
+}
+.has-warning .form-material > .form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760;
+}
+.has-warning .form-material > .form-control:focus + label {
+    color: #f3b760;
+}
+.has-warning .form-material > .form-control:focus ~ .input-group-addon {
+    color: #f3b760;
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760;
+}
+.has-warning .form-material > .form-control + label {
+    color: #f3b760;
+}
+.has-warning .form-material > .form-control ~ .input-group-addon {
+    color: #f3b760;
+    -webkit-box-shadow: 0 1px 0 #f3b760;
+    box-shadow: 0 1px 0 #f3b760;
+}
+.has-warning .form-material > .help-block {
+    color: #f3b760;
+}
+.has-error .form-material > .form-control {
+   /* -webkit-box-shadow: 0 1px 0 #d26a5c;
+    box-shadow: 0 1px 0 #d26a5c;*/
+}
+.has-error .form-material > .form-control:focus {
+   /* -webkit-box-shadow: 0 2px 0 #d26a5c;
+    box-shadow: 0 2px 0 #d26a5c;*/
+}
+.has-error .form-material > .form-control:focus + label {
+    color: #d26a5c;
+}
+.has-error .form-material > .form-control:focus ~ .input-group-addon {
+    color: #d26a5c;
+    -webkit-box-shadow: 0 2px 0 #d26a5c;
+    box-shadow: 0 2px 0 #d26a5c;
+}
+.has-error .form-material > .form-control + label {
+    color: #d26a5c;
+}
+.has-error .form-material > .form-control ~ .input-group-addon {
+    color: #d26a5c;
+    -webkit-box-shadow: 0 1px 0 #d26a5c;
+    box-shadow: 0 1px 0 #d26a5c;
+}
+.has-error .form-material > .help-block {
+    color: #d26a5c;
+}
